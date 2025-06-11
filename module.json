@@ -1,0 +1,93 @@
+{
+  "title": "Veil Knight Systems",
+  "description": "The Veil Knight Class System for DnD 5e",
+  "packs": [
+    {
+      "name": "veil-knight-classes",
+      "label": "Veil Knight Classes",
+      "path": "packs/veil-knight-classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "veil-knight-sublclasses",
+      "label": "Veil Knight Sublclasses",
+      "path": "packs/veil-knight-sublclasses",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "will-spells",
+      "label": "Will Spells",
+      "path": "packs/will-spells",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "veil-rules-and-guidelines",
+      "label": "Veil Rules and Guidelines",
+      "path": "packs/veil-rules-and-guidelines",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "veil-misc",
+      "label": "Veil Misc",
+      "path": "packs/veil-misc",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolder": [
+  { 
+	 "name": "Veil Systems",
+	 "sorting": "m",
+	 "color": "9D80BA",
+	 "packs": ["veil-knight-classes","veil-knight-sublclasses","will-spells","veil-rules-and-guidelines","veil-misc"],
+	 "folders": [],
+  }
+  ]
+  "id": "veil-knights",
+  "authors": [
+    {
+      "name": "AtlasClouds, Lucinder, Kuibird",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "9",
+    "verified": "13"
+  },
+  "version": "1.0",
+  "manifest": "https://github.com/FaeofFate/Veil-Knight-Systems/releases/latest/download/module.json",
+  "download": "https://github.com/FaeofFate/Veil-Knight-Systems/releases/latest/1.0/module.zip",
+  "relationships": {
+    "requires": [
+      {
+        "id": "dnd5e-spellpoints",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+}
